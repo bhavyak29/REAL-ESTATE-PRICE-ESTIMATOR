@@ -1,0 +1,89 @@
+/* Global page style */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(135deg, #b3e5fc, #e1bee7);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Main container */
+form {
+    background: #ffffff;
+    padding: 30px 40px;
+    border-radius: 12px;
+    box-shadow: 0px 0px 18px rgba(0, 0, 0, 0.15);
+    width: 360px;
+    text-align: left;
+}
+
+/* Heading style */
+h1 {
+    text-align: center;
+    color: #1b325f;
+    font-size: 26px;
+    margin-bottom: 28px;
+}
+
+/* Input fields */
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin: 12px 0;
+    border-radius: 8px;
+    border: 1px solid #939393;
+    font-size: 15px;
+    transition: 0.3s;
+}
+
+input[type="number"]:focus {
+    border: 1px solid #4e73df;
+    outline: none;
+    box-shadow: 0px 0px 8px rgba(78, 115, 223, 0.3);
+}
+
+/* Submit button */
+input[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    margin-top: 15px;
+    background: #4e73df;
+    border: none;
+    border-radius: 8px;
+    font-size: 17px;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+input[type="submit"]:hover {
+    background: #2e59d9;
+}
+
+/* Result price */
+p {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: #1b5e20;
+    margin-top: 18px;
+}
+
+.container {
+    background: #ffffff;
+    padding: 30px 40px;
+    border-radius: 12px;
+    box-shadow: 0px 0px 18px rgba(0, 0, 0, 0.15);
+    width: 420px;
+    text-align: center;
+}
+
+.price {
+    font-size: 20px;
+    font-weight: bold;
+    color: #1b5e20;
+    margin-bottom: 18px;
+}
